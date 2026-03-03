@@ -1,0 +1,26 @@
+objects:
+  - name: sausage
+    loader: robocasa
+    urdf: hot_dog
+    globalScaling: 0.6
+    basePosition:
+      - [0.48, -0.25, 0.03]
+      - [0.48, -0.25, 0.03]
+    baseOrientationEuler:
+      - [0.0, 0.0, 0.0]
+      - [0.0, 0.0, 0.3141592653]
+    useFixedBase: false
+
+  - name: microwave
+    loader: custom
+    urdf: microwave
+    basePosition: [0.8, 0.1, 0.175]
+    baseOrientationEuler: [0.0, 0.0, 3.141592653589793]
+    useFixedBase: true
+
+  - name: button
+    loader: custom
+    urdf: button
+    basePosition: [0.75, 0.02, 0.29]
+    baseOrientationEuler: [0.0, 0.0, 3.141592653589793]
+    useFixedBase: true

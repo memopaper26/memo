@@ -1,0 +1,1 @@
+from .objects import CustomObject, SimpleObject, YCBObject, PyBulletObject, RoboCasaObject

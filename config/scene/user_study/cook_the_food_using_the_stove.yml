@@ -1,0 +1,31 @@
+objects:
+  - name: pan
+    loader: robocasa
+    urdf: pan
+    basePosition: 
+      - [0.45, -0.3, 0.08]
+      - [0.5, -0.3, 0.08]
+    baseOrientationEuler: [0.0, 0.0, 3.141592653589793]
+    useFixedBase: false
+
+  - name: sausage
+    loader: robocasa
+    urdf: hot_dog
+    globalScaling: 0.6
+    basePosition:
+      - [0.5, 0.2, 0.025]
+      - [0.5, 0.2, 0.025]
+    baseOrientationEuler:
+      - [0.0, 0.0, 0.0]
+      - [0.0, 0.0, 0.3141592653]
+    useFixedBase: false
+
+  - name: stove
+    loader: robocasa
+    urdf: alborz_top_gas
+    globalScaling: 0.7
+    basePosition: 
+      - [0.8, 0.1, 0.1]
+      - [0.8, 0.1, 0.1]
+    baseOrientationEuler: [0.0, 0.0, -1.57]
+    useFixedBase: true
